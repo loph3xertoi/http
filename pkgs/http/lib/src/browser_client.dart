@@ -42,8 +42,8 @@ class BrowserClient extends BaseClient {
   /// Whether to send credentials such as cookies or authorization headers for
   /// cross-site requests.
   ///
-  /// Defaults to `false`.
-  bool withCredentials = false;
+  /// Defaults to `true`.
+  bool withCredentials = true;
 
   bool _isClosed = false;
 
